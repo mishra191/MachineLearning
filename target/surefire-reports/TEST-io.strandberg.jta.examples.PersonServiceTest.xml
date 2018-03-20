@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="io.strandberg.jta.examples.PersonServiceTest" time="0.058" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Anurag\Downloads\atomikos-jta-camel-jpa-jms-example-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Anurag\Downloads\atomikos-jta-camel-jpa-jms-example-master"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Anurag\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Anurag\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3588908071074045417.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_111/bin/server;C:/Program Files/Java/jre1.8.0_111/bin;C:/Program Files/Java/jre1.8.0_111/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\scala\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Anurag\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files (x86)\scala\bin;C:\Users\Anurag\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Anurag"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Anurag"/>
+    <property name="java.class.path" value="/C:/Users/Anurag/eclipse/java-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Anurag\Downloads\atomikos-jta-camel-jpa-jms-example-master\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="io.strandberg.jta.examples.PersonServiceTest" name="testCamelRoute" time="0.058">
+    <error message="Failed to start route route4 because of Multiple consumers for the same endpoint is not allowed: Endpoint[file://C:/Users/Anurag/Downloads/atomikos-jta-camel-jpa-jms-example-master/target/outbox/dvd]" type="org.apache.camel.FailedToStartRouteException">org.apache.camel.FailedToStartRouteException: Failed to start route route4 because of Multiple consumers for the same endpoint is not allowed: Endpoint[file://C:/Users/Anurag/Downloads/atomikos-jta-camel-jpa-jms-example-master/target/outbox/dvd]
+	at org.apache.camel.impl.DefaultCamelContext.doStartOrResumeRouteConsumers(DefaultCamelContext.java:2288)
+	at org.apache.camel.impl.DefaultCamelContext.doStartRouteConsumers(DefaultCamelContext.java:2245)
+	at org.apache.camel.impl.DefaultCamelContext.safelyStartRouteServices(DefaultCamelContext.java:2175)
+	at org.apache.camel.impl.DefaultCamelContext.safelyStartRouteServices(DefaultCamelContext.java:2188)
+	at org.apache.camel.impl.DefaultCamelContext.startRouteService(DefaultCamelContext.java:2065)
+	at org.apache.camel.impl.DefaultCamelContext.startRoute(DefaultCamelContext.java:780)
+	at org.apache.camel.impl.DefaultCamelContext.startRouteDefinitions(DefaultCamelContext.java:2041)
+	at org.apache.camel.impl.DefaultCamelContext.addRouteDefinitions(DefaultCamelContext.java:715)
+	at org.apache.camel.builder.RouteBuilder.populateRoutes(RouteBuilder.java:337)
+	at org.apache.camel.builder.RouteBuilder.addRoutesToCamelContext(RouteBuilder.java:264)
+	at org.apache.camel.impl.DefaultCamelContext.addRoutes(DefaultCamelContext.java:677)
+	at io.strandberg.jta.examples.PersonServiceTest.testCamelRoute(PersonServiceTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:224)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>2017-04-15 21:31:07 INFO  DefaultTestContextBootstrapper:256 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-04-15 21:31:07 INFO  DefaultTestContextBootstrapper:204 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2017-04-15 21:31:07 INFO  DefaultTestContextBootstrapper:182 - Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@cb644e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@13805618, org.springframework.test.context.transaction.TransactionalTestExecutionListener@56ef9176, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4566e5bd]
+2017-04-15 21:31:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2017-04-15 21:31:10 INFO  GenericApplicationContext:510 - Refreshing org.springframework.context.support.GenericApplicationContext@369f73a2: startup date [Sat Apr 15 21:31:10 IST 2017]; root of context hierarchy
+2017-04-15 21:31:10 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos; of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-15 21:31:10 INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker:309 - Bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos; of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-04-15 21:31:10 INFO  LoggerFactory:16 - Using Slf4J for logging.
+2017-04-15 21:31:11 INFO  AbstractDataSourceBean:16 - AtomikosDataSoureBean &apos;AtomikosDataSource&apos;: init...
+2017-04-15 21:31:11 WARN  AbstractDataSourceBean:12 - AtomikosDataSoureBean &apos;AtomikosDataSource&apos;: poolSize equals default - this may cause performance problems!
+2017-04-15 21:31:11 INFO  AtomikosDataSourceBean:16 - AtomikosDataSoureBean &apos;AtomikosDataSource&apos;: initializing with [ xaDataSourceClassName=com.mysql.jdbc.jdbc2.optional.MysqlXADataSource, uniqueResourceName=AtomikosDataSource, maxPoolSize=1, minPoolSize=1, borrowConnectionTimeout=30, maxIdleTime=60, reapTimeout=0, maintenanceInterval=60, testQuery=null, xaProperties=[user=root,port=3306,password=xenmish@1982,url=jdbc:mysql://localhost:3306/companyB,databaseName=companyB,serverName=localhost], loginTimeout=0, maxLifetime=0]
+2017-04-15 21:31:11 INFO  TaskManager:16 - THREADS: using JDK thread pooling...
+2017-04-15 21:31:12 INFO  LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit &apos;default&apos;
+2017-04-15 21:31:12 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2017-04-15 21:31:12 INFO  Version:41 - HHH000412: Hibernate Core {4.1.9.Final}
+2017-04-15 21:31:12 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2017-04-15 21:31:12 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2017-04-15 21:31:12 INFO  Ejb3Configuration:527 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-04-15 21:31:12 WARN  Ejb3Configuration:1309 - HHH000193: Overriding hibernate.transaction.factory_class is dangerous, this might break the EJB3 specification implementation
+2017-04-15 21:31:14 INFO  ConnectionProviderInitiator:188 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2017-04-15 21:31:14 INFO  AbstractDataSourceBean:16 - AtomikosDataSoureBean &apos;AtomikosDataSource&apos;: getConnection ( null )...
+2017-04-15 21:31:14 INFO  AbstractDataSourceBean:16 - AtomikosDataSoureBean &apos;AtomikosDataSource&apos;: init...
+2017-04-15 21:31:15 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:15 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: calling getMetaData...
+2017-04-15 21:31:15 INFO  Dialect:123 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2017-04-15 21:31:15 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:15 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: calling getCatalog...
+2017-04-15 21:31:15 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:15 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: calling getMetaData...
+2017-04-15 21:31:15 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:15 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: calling createClob...
+2017-04-15 21:31:15 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:15 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: close()...
+2017-04-15 21:31:15 WARN  JtaPlatformInitiator:74 - HHH000427: Using deprecated org.hibernate.transaction.TransactionManagerLookup strategy [hibernate.transaction.manager_lookup_class], use newer org.hibernate.service.jta.platform.spi.JtaPlatform strategy instead [hibernate.transaction.jta.platform]
+2017-04-15 21:31:15 INFO  JtaPlatformInitiator:90 - HHH000428: Encountered legacy TransactionManagerLookup specified; convert to newer org.hibernate.service.jta.platform.spi.JtaPlatform contract specified via hibernate.transaction.jta.platform setting
+2017-04-15 21:31:15 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+2017-04-15 21:31:15 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2017-04-15 21:31:16 INFO  SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+2017-04-15 21:31:16 INFO  AbstractDataSourceBean:16 - AtomikosDataSoureBean &apos;AtomikosDataSource&apos;: getConnection ( null )...
+2017-04-15 21:31:16 INFO  AbstractDataSourceBean:16 - AtomikosDataSoureBean &apos;AtomikosDataSource&apos;: init...
+2017-04-15 21:31:16 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:16 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: calling getAutoCommit...
+2017-04-15 21:31:16 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:16 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:16 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: calling createStatement...
+2017-04-15 21:31:17 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:17 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: calling getWarnings...
+2017-04-15 21:31:17 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:17 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: calling clearWarnings...
+2017-04-15 21:31:17 WARN  AtomikosConnectionProxy:12 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: WARNING: transaction manager not running?
+2017-04-15 21:31:17 INFO  AtomikosConnectionProxy:16 - atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@57a4d5ee: close()...
+2017-04-15 21:31:17 INFO  SchemaExport:405 - HHH000230: Schema export complete
+2017-04-15 21:31:17 INFO  AtomikosConnectionFactoryBean:16 - AtomikosConnectionFactoryBean &apos;ActiveMQXA&apos;: init...
+2017-04-15 21:31:17 INFO  AtomikosConnectionFactoryBean:16 - AtomikosConnectionFactoryBean &apos;ActiveMQXA&apos;: getReference()...
+2017-04-15 21:31:17 INFO  AtomikosConnectionFactoryBean:16 - AtomikosConnectionFactoryBean &apos;ActiveMQXA&apos;: initializing with [ xaConnectionFactory=org.apache.activemq.ActiveMQXAConnectionFactory@26f96b85, xaConnectionFactoryClassName=null, uniqueResourceName=ActiveMQXA, maxPoolSize=10, minPoolSize=5, borrowConnectionTimeout=30, maxIdleTime=60, reapTimeout=0, maintenanceInterval=60, xaProperties=[], localTransactionMode=false, maxLifetime=0, ignoreSessionTransactedFlag=true]
+2017-04-15 21:31:18 INFO  BrokerService:619 - Using Persistence Adapter: MemoryPersistenceAdapter
+2017-04-15 21:31:20 INFO  BrokerService:659 - Apache ActiveMQ 5.7.0 (localhost, ID:LAPTOP-ATNJBURA-57546-1492272079006-0:1) is starting
+2017-04-15 21:31:20 INFO  BrokerService:696 - Apache ActiveMQ 5.7.0 (localhost, ID:LAPTOP-ATNJBURA-57546-1492272079006-0:1) started
+2017-04-15 21:31:20 INFO  BrokerService:698 - For help or more information please see: http://activemq.apache.org
+2017-04-15 21:31:20 INFO  ManagementContext:132 - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2017-04-15 21:31:20 INFO  TransportConnector:246 - Connector vm://localhost Started
+2017-04-15 21:31:22 WARN  UserTransactionServiceImp:12 - No properties path set - looking for transactions.properties in classpath...
+2017-04-15 21:31:22 WARN  UserTransactionServiceImp:12 - transactions.properties not found - looking for jta.properties in classpath...
+2017-04-15 21:31:22 WARN  UserTransactionServiceImp:12 - Using init file: /C:/Users/Anurag/Downloads/atomikos-jta-camel-jpa-jms-example-master/target/classes/jta.properties
+2017-04-15 21:31:22 INFO  StateRecoveryManagerImp:16 - com.atomikos.persistence.imp.WriteAheadObjectLog instantiation failed - falling back to default
+2017-04-15 21:31:22 INFO  AbstractLogStream:16 - Logfile closed: C:\Users\Anurag\Downloads\atomikos-jta-camel-jpa-jms-example-master\build\tmp\atomikos\tmlog-1.log
+2017-04-15 21:31:22 INFO  XATransactionalResource:16 - AtomikosDataSource: refreshed XAResource
+2017-04-15 21:31:23 INFO  XATransactionalResource:16 - ActiveMQXA: refreshed XAResource
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING core version: 3.9.3
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.automatic_resource_registration = true
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.client_demarcation = false
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.threaded_2pc = false
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.serial_jta_transactions = true
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.serializable_logging = true
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.log_base_dir = build/tmp/atomikos
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.max_actives = 50
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.checkpoint_interval = 500
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.enable_logging = true
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.output_dir = build/tmp/atomikos
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.log_base_name = tmlog
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.max_timeout = 300000
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.tm_unique_name = 192.168.0.5.tm
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING java.naming.provider.url = rmi://localhost:1099
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+2017-04-15 21:31:23 INFO  AbstractUserTransactionService:16 - USING com.atomikos.icatch.default_jta_timeout = 10000
+2017-04-15 21:31:26 INFO  JtaTransactionManager:490 - Using JTA UserTransaction: com.atomikos.icatch.jta.J2eeUserTransaction@146dcfe6
+2017-04-15 21:31:26 INFO  JtaTransactionManager:501 - Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@22587507
+2017-04-15 21:31:27 INFO  SpringCamelContext:1619 - Apache Camel 2.13.0 (CamelContext: camel-1) is starting
+2017-04-15 21:31:27 INFO  ManagedManagementStrategy:187 - JMX is enabled
+2017-04-15 21:31:28 INFO  DefaultTypeConverter:50 - Loaded 177 type converters
+2017-04-15 21:31:29 INFO  JpaComponent:89 - Using EntityManagerFactory found in registry with id [entityManagerFactory] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@4397a639
+2017-04-15 21:31:29 INFO  JpaComponent:105 - Using TransactionManager found in registry with id [transactionManager] org.springframework.transaction.jta.JtaTransactionManager@24841372
+2017-04-15 21:31:29 INFO  SpringCamelContext:1806 - AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+2017-04-15 21:31:29 INFO  SpringCamelContext:1816 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2017-04-15 21:31:29 INFO  SpringCamelContext:2310 - Route: route1 started and consuming from: Endpoint[file://C:/Users/Anurag/Downloads/atomikos-jta-camel-jpa-jms-example-master/target/outbox/dvd]
+2017-04-15 21:31:29 INFO  SpringCamelContext:2310 - Route: route2 started and consuming from: Endpoint[direct://putOnQueue]
+2017-04-15 21:31:29 INFO  SpringCamelContext:2310 - Route: route3 started and consuming from: Endpoint[jms://queue:person2Db]
+2017-04-15 21:31:29 INFO  SpringCamelContext:1654 - Total 3 routes, of which 3 is started.
+2017-04-15 21:31:29 INFO  SpringCamelContext:1655 - Apache Camel 2.13.0 (CamelContext: camel-1) started in 1.942 seconds
+</system-out>
+  </testcase>
+</testsuite>

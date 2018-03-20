@@ -1,0 +1,9 @@
+io\strandberg\jta\examples\CamelRoute$1.class
+io\strandberg\jta\examples\LoginProcessor.class
+io\strandberg\jta\examples\StringToPersonConverter.class
+io\strandberg\jta\examples\PersonRepository.class
+io\strandberg\jta\examples\CamelRoute$FailProcessor.class
+io\strandberg\jta\examples\TransformationBean.class
+io\strandberg\jta\examples\PersonService.class
+io\strandberg\jta\examples\Person.class
+io\strandberg\jta\examples\CamelRoute.class
