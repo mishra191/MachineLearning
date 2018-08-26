@@ -14,7 +14,7 @@ public class LoginProcessor implements Processor{
 
 	@Override
 	public void process(Exchange exchange) throws Exception {
-		System.out.println("Received Order: " +
+		System.out.println("Received Order from exchange: " +
 				exchange.getIn().getBody(String.class));
 		
 	}
